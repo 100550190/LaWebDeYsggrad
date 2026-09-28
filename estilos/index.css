@@ -1,0 +1,60 @@
+html {
+    height: 100%;
+}
+body {
+    background-color: skyblue;
+    background-image: url(../Imágenes/OfficeStockPhoto.png);
+    background-size: cover;
+    background-position: center;
+}
+article {
+    background-color: midnightblue;
+    border: 2px solid deepskyblue;
+    border-radius: 20px;
+    padding: 3%;
+    width: 280px;
+    height: 550px;
+    margin: auto;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.8);
+}
+img {
+    display: block;
+    max-width: 100%;
+    width: 200px;
+    height: 200px;
+    object-position: 0% 1%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 15px solid deepskyblue;
+    margin: auto;
+}
+h1 {
+    color: lightsalmon;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    margin: 20px auto 0px;
+}
+p {
+    color: lightyellow;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    margin: auto;
+    font-size: 22px;
+}
+a {
+    display: block;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 10px auto 0px;
+    text-align: center;
+    font-size: 30px;
+    width: fit-content;
+}
+a:link {
+    color:gold;
+}
+a:visited {
+    color: fuchsia;
+}
+a:hover {
+    color: cyan;
+}
