@@ -1,60 +1,50 @@
-html {
-    height: 100%;
-}
 body {
-    background-color: skyblue;
-    background-image: url(../Imágenes/OfficeStockPhoto.png);
+    background-color: #f0ece1;
+    background-image: url(../Imágenes/RebelAllianceBackground.jpg);
     background-size: cover;
-    background-position: center;
 }
-article {
-    background-color: midnightblue;
-    border: 2px solid deepskyblue;
+.container {
+    display: flex;
+    background-color: rgba(229, 112, 61, 0.8);
+    align-items: center;
+    justify-content: space-between;
     border-radius: 20px;
-    padding: 3%;
-    width: 280px;
-    height: 550px;
-    margin: auto;
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.8);
+    border: 10px solid #3b444b;
 }
-img {
-    display: block;
-    max-width: 100%;
-    width: 200px;
-    height: 200px;
-    object-position: 0% 1%;
-    object-fit: cover;
-    border-radius: 50%;
-    border: 15px solid deepskyblue;
-    margin: auto;
+.container div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
 }
-h1 {
-    color: lightsalmon;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
-    margin: 20px auto 0px;
+.container a {
+  background-color: #f0ece1;
+  color: #CC3700;
+  border: 5px solid #3b444b;
+  width: auto;
+  margin: 10px;
+  padding: 10px;
+  font-size: 30px;
+  transition-duration: 0.3s;
+  border-radius: 10px;
+  text-decoration: none;
+
 }
-p {
-    color: lightyellow;
-    font-family: 'Times New Roman', Times, serif;
-    text-align: left;
-    margin: auto;
-    font-size: 22px;
+.container img {
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    border-radius: 25px;
 }
-a {
-    display: block;
-    font-family: 'Times New Roman', Times, serif;
-    margin: 10px auto 0px;
-    text-align: center;
-    font-size: 30px;
-    width: fit-content;
+.container a:hover {
+    color: orchid;
+    text-decoration: underline;
 }
-a:link {
-    color:gold;
-}
-a:visited {
-    color: fuchsia;
-}
-a:hover {
-    color: cyan;
+@media screen and (max-width: 600px) {
+    .container {
+        flex-direction: column;
+    }
+    .container div {
+        display: flex;
+        flex-direction: column;
+    }
 }
