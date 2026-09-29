@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: brown;
+    background-image: url(../imagenes/DnDBackground.jpg);
+    background-size: cover;
+}
+
+.principal {
+    display: flex;
+    margin: auto;
+    width: max(30vw, 200px);
+    aspect-ratio: 3/4;
+    align-items: center;
+    background-color: rgba(100, 149, 237, 0.8);
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0;
+    border-radius: 20px;
+    border: 5px solid blue;
+    container-type: inline-size;
+}
+.principal div {
+    margin: auto auto 10cqw auto;
+    display: flex;
+    flex-direction: column;
+    gap: 5cqw;
+}
+.principal h1 {
+    text-decoration: underline;
+    margin: 10cqw auto auto auto;
+    font-size: 10cqw;
+}
+.enlaces a {
+    display: block;
+    width: 50cqw;
+    aspect-ratio: 3/1;
+    background-color: royalblue;
+    font-size: 5cqw;
+    align-content: center;
+    text-align: center;
+    color: white;
+    text-decoration-color: transparent;
+    border-radius: 2cqw;
+    transition: background-color 0.4s, text-decoration-color 0.4s
+}
+.enlaces a:hover {
+    background-color: blue;
+    text-decoration-color: white;
+}
+.inicio a {
+    display: block;
+    width: 50cqw;
+    aspect-ratio: 3/1;
+    background-color: brown;
+    text-decoration: underline;
+    text-decoration-color: transparent;
+    border: 1cqw solid darkred;
+    font-size: 5cqw;
+    align-content: center;
+    text-align: center;
+    color: white;
+    border-radius: 2cqw;
+    transition: background-color 0.4s, text-decoration-color 0.4s
+}
+.inicio a:hover {
+    background-color: crimson;
+    text-decoration-color: white;
+}
