@@ -1,15 +1,16 @@
 body {
     background-color: #f0ece1;
-    background-image: url(../imagenes/DnDBackground.jpg);
+    background-image: url(../imagenes/NebulaFondo.png);
     background-size: cover;
 }
 .container {
     display: flex;
-    background-color: rgba(165, 42, 42, 0.8);
+    background-color: rgba(0, 0, 50, 0.6);
     align-items: center;
     justify-content: space-between;
-    border-radius: 20px;
-    border: 10px solid dimgray;
+    border-radius: 30px;
+    border: 0.3cqw solid rgba(0, 0, 128, 0.6);
+    container-type: inline-size;
 }
 .botones {
     display: flex;
@@ -21,33 +22,36 @@ body {
     flex-wrap: wrap;
     justify-content: flex-start;
     align-items: center;
-    gap: 50px;
+    gap: 2cqw;
 }
 .logo h1 {
     font-family: 'Times New Roman', Times, serif;
-    font-size: 50px;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 3.5cqw;
 }
 .botones a {
-    background-color: brown;
+    background-color: rgba(0, 0, 100, 0.8);
     color: white;
-    border: 5px solid black;
+    border: 0.2cqw solid black;
     width: auto;
-    margin: 10px;
-    padding: 10px;
-    font-size: 30px;
+    margin: 0.7cqw;
+    padding: 0.6cqw;
+    font-size: 2cqw;
     transition-duration: 0.3s;
     border-radius: 10px;
     text-decoration-color: transparent;
 }
 .botones a:hover {
     text-decoration-color: white;
-    background-color: crimson;
+    background-color: navy;
 }
 .logo img {
-    width: 150px;
-    height: 150px;
-    margin: 10px;
+    width: 12cqw;
+    aspect-ratio: 1;
+    object-fit: cover;
+    margin: -1cqw;
     border-radius: 25px;
+    filter: brightness(80%);
 }
 @media screen and (max-width: 600px) {
     .container {
